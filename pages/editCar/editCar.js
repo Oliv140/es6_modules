@@ -45,7 +45,7 @@ export function initEditCar(){
     const newCar_pricePrDay = document.getElementById("edit_price_pr_day").value;
     const newCar_bestDiscount = document.getElementById("edit_best_discount").value;
   
-    //Get Cars from form
+   
     const updatedCar = {
       brand : newCar_brand,
       model : newCar_model,
