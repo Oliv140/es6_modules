@@ -6,4 +6,18 @@
   <p> <em>MAKE SURE</em> to create a separate file <b>settings.js</b>, and <code>export</code> the URL to your API from here </p>
      <hr/>
   <h1>JavaScript Rules &#128516; &#128516;</h1>
+
+
+<div style = "border: 2px solid black; width: 500px; height: 250px;">
+   'async'/'await' er smart fordi det hjælper os med at håndtere asynkron kode. 
+   Asynkron kode er kode der der eksekveres uden at stoppe eksekveringen af andre opgaver.
+   Det vil altså kunne blive udført uden at blokere hovedtråden. 'async', bruges til at
+   markere en funktion som værende asynkron. i vores metode til at finde alle biler
+    markerer for eksempel noget kode som værende asynkron : export async function initAllCars(){}.
+   'await', bruger vi så inde i den funktion, for at fortælle at vi gerne vil vente på resultatet.
+   Vi skriver eksempelvis: const cars  = await getCars(). Den vil altså vente med at gå videre indtil 
+   getCars-funktionen er færdig og vi har en liste med biler. 
+
+</div>
+
 </div>

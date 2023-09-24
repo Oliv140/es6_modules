@@ -6,6 +6,7 @@ import {initAllCars} from "./pages/allCars/allCars.js"
 import {initFindCar} from "./pages/findCar/findCar.js"
 
 import {initaddCar} from "./pages/addCar/initAddCar.js";
+
 import { initEditCar } from "./pages/editCar/editCar.js";
 
 window.addEventListener("load", async () => {
